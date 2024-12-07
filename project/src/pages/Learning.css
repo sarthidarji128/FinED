@@ -1,0 +1,146 @@
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1e1e2f; /* Dark black with a hint of purple */
+  color: #e0e0e0; /* Light gray for text */
+  margin: 0;
+  padding: 0;
+}
+
+/* Course List Styling */
+.course-list {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #2a2a3c; /* Slightly lighter dark tone */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.course-list h1 {
+  text-align: center;
+  color: #bb86fc; /* Purple accent */
+  margin-bottom: 1rem;
+}
+
+.course-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.course-list li {
+  background-color: #3a3a4d; /* Subtle dark tone for list items */
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.course-list li:hover {
+  transform: scale(1.02);
+  background-color: #444457;
+}
+
+.course-list button {
+  background-color: #bb86fc;
+  color: #1e1e2f;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.course-list button:hover {
+  background-color: #a168fc; /* Slightly darker purple */
+}
+
+/* Course Detail Styling */
+.course-detail {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #2a2a3c;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.course-detail h2 {
+  color: #bb86fc;
+  margin-bottom: 1rem;
+}
+
+.course-detail ul {
+  list-style: none;
+  padding: 0;
+}
+
+.course-detail li button {
+  background-color: #3a3a4d;
+  color: #bb86fc;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.course-detail li button:hover {
+  background-color: #bb86fc;
+  color: #1e1e2f;
+}
+
+.course-detail button {
+  background-color: #444457;
+  color: #e0e0e0;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.course-detail button:hover {
+  background-color: #3a3a4d;
+}
+
+/* Video Player Styling */
+.video-player {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #2a2a3c;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.video-player h2 {
+  color: #bb86fc;
+  margin-bottom: 1rem;
+}
+
+.video-player video {
+  border-radius: 8px;
+  border: 2px solid #bb86fc;
+}
+
+.video-player button {
+  background-color: #bb86fc;
+  color: #1e1e2f;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.video-player button:hover {
+  background-color: #a168fc;
+}
